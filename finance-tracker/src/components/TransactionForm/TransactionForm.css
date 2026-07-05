@@ -1,0 +1,31 @@
+.transaction-form {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 16px;
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.transaction-form input,
+.transaction-form select {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+}
+
+.transaction-form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.transaction-form button:hover {
+  background: #1d4ed8;
+}

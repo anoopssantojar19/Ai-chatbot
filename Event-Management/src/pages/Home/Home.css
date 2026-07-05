@@ -1,0 +1,14 @@
+.home {
+  height: 100vh;
+  background: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.home h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
